@@ -1,0 +1,1 @@
+pdftsfm.vbs D:\oacn\htdocs\oa.cn\protected\script\pdftsfm\doc_file\1.doc "D:\oacn\htdocs\oa.cn\protected\script\pdftsfm\InfoViewOffice\temp_pdf\ddd.pdf"
