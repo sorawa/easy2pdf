@@ -174,7 +174,9 @@ Function doc2prn(doc_file,prn_file)
 	'file_path = CreateObject("Scripting.FileSystemObject").GetFolder(".").Path
 	'file_path = file_path & "\" & "out.prn"
 	'MsgBox prn_file
-	objWD.PrintOut 1,0,0,prn_file,,,7,1
+	'Item 7 With MarkUP
+	'objWD.PrintOut 1,0,0,prn_file,,,7,1
+	objWD.PrintOut 1,0,0,prn_file,,,0,1
 	'objWD.PrintOut 1,0,0,prn_file,,,7,1,0,1,True,""
 
 	objDoc.Close
